@@ -1,0 +1,33 @@
+# PlasmoRadio configuration
+
+# Number of waves (pages) available by default
+waves: 15
+
+# Hologram display time in seconds
+hologram_seconds: 5
+
+# Base receive radius (blocks) without antennas
+base_radius: 16
+
+# Additional radius per lightning rod (up to 5)
+radius_per_antenna: 8
+
+# Maximum antennas counted
+max_antennas: 5
+
+# Materials that block radio signal (exact names)
+blocking_materials:
+  - OBSIDIAN
+  - ANCIENT_DEBRIS
+  - CRYING_OBSIDIAN
+
+# Permissions
+permissions:
+  use: 'plasmo.radio.use'
+  broadcast: 'plasmo.radio.broadcast'
+  listen: 'plasmo.radio.listen'
+  admin: 'plasmo.radio.admin'
+
+# Limit the number of simultaneously broadcasting speakers per wave
+max_broadcasters_per_wave: 3
+
